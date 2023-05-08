@@ -1,2 +1,0 @@
-# mdm
-repo-mdm
