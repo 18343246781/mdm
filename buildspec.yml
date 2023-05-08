@@ -1,0 +1,164 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      java: corretto8
+
+  build:
+    commands:
+      - echo hello
+      - mvn -v
+      - java -version
+      - pwd
+      - ls -l
+
+      - url=`pwd`
+      - cd ./cloud-base/cloud-parent-base
+      - mvn install
+      - cd $url
+
+      - cd ./cloud-base/cloud-parent-web
+      - mvn install
+      - cd $url
+
+      - cd ./cloud-base/cloud-base-common
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-base/cloud-utils
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-tools/cloud-ueditor-web-starter
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-base/cloud-styles
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-base/cloud-utils-pdf
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-po
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-util
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-rowrange
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-service
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-rowrange-impl
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-config
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-approval-service
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-web
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-core/cloud-core-view
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-api
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-api-aad
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-ou/cloud-ou-po
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-territory/cloud-territory-po
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-tools/cloud-tools-module
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-tools/cloud-tools-dict
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-tools/cloud-tools-file-upload
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-tools/cloud-tools-websocket
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-tools/cloud-ueditor-web-starter
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-ou/cloud-ou-service
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-territory/cloud-territory-service
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-tools-import
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-territory/cloud-territory-web
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-module/cloud-territory/cloud-territory-view
+      - mvn clean install -DskipTests
+      - cd $url
+
+      - cd ./cloud-websocket-cluster
+      - mvn install -DskipTests
+      - cd $url
+
+      - cd ./cloud-webapp/webapp
+      - mvn clean package -DskipTests
+      - cd $url
+
+      - cd ./cloud-service-ui/cloud-service-ui
+      - mvn clean package -DskipTests
+      - cd $url
+
+      - cd ./cloud-websocket-cluster
+      - mvn package -DskipTests
+      - cd $url
+
+      - ls -l
+      - ls -l ./cloud-webapp/webapp/target
+      - ls -l ./cloud-websocket-cluster/target
+      - ls -l ./cloud-service-ui/cloud-service-ui/target
+artifacts:
+  files:
+    - './cloud-webapp/webapp/target/*.jar'
+    - './cloud-websocket-cluster/target/*.jar'
+    - './cloud-service-ui/cloud-service-ui/target/*.jar'
+    - './appspec.yml'
+    - './Start.sh'
+  discard-paths: yes

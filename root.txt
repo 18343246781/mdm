@@ -1,0 +1,155 @@
+set RETURN_URL=C:\Users\26913\Desktop\Å·¼ÓÂ¡\MDM\mdm\repo-mdm
+call cd ./cloud-base/cloud-parent-base
+call mvn install
+call cd %RETURN_URL%
+call echo cloud-parent-base over install
+
+call cd ./cloud-tools/cloud-ueditor-web-starter
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-ueditor-web-starter over install
+
+call cd ./cloud-base/cloud-base-common
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-base-common over install
+
+call cd ./cloud-base/cloud-styles
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-styles over install
+
+call cd ./cloud-base/cloud-utils
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-utils over install
+
+call cd ./cloud-base/cloud-utils-pdf
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-utils-pdf over install
+
+call cd ./cloud-core/cloud-core-po
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-po over install
+
+call cd ./cloud-core/cloud-core-util
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-util over install
+
+call cd ./cloud-core/cloud-core-rowrange
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-rowrange over install
+
+call cd ./cloud-core/cloud-core-service
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-service over install
+
+call cd ./cloud-core/cloud-rowrange-impl
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-rowrange-impl over install
+
+call cd ./cloud-core/cloud-core-config
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-config over install
+
+call cd ./cloud-core/cloud-core-approval-service
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-approval-service over install
+
+call cd ./cloud-core/cloud-core-web
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-web over install
+
+call cd ./cloud-core/cloud-core-view
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-core-view over install
+
+call cd ./cloud-module/cloud-api
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-api over install
+
+call cd ./cloud-module/cloud-api-aad
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-api-aad over install
+
+call cd ./cloud-module/cloud-ou/cloud-ou-po
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-ou-po over install
+
+call cd ./cloud-module/cloud-territory/cloud-territory-po
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-territory-po over install
+
+call cd ./cloud-tools/cloud-tools-module
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-tools-module over install
+
+call cd ./cloud-tools/cloud-tools-dict
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-tools-dict over install
+
+call cd ./cloud-tools/cloud-tools-file-upload
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-tools-file-upload over install
+
+call cd ./cloud-tools/cloud-tools-websocket
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-tools-websocket over install
+
+call cd ./cloud-tools/cloud-ueditor-web-starter
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-ueditor-web-starter over install
+
+call cd ./cloud-module/cloud-ou/cloud-ou-service
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-ou-service over install
+
+call cd ./cloud-module/cloud-territory/cloud-territory-service
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-territory-service over install
+
+call cd ./cloud-module/cloud-tools-import
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-tools-import over install
+
+call cd ./cloud-module/cloud-territory/cloud-territory-web
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-territory-web over install
+
+call cd ./cloud-module/cloud-territory/cloud-territory-view
+call mvn clean install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-territory-view over install
+
+call cd ./cloud-websocket-cluster
+call mvn install -DskipTests
+call cd %RETURN_URL%
+call echo cloud-websocket-cluster over install
+
+call cd ./cloud-webapp/webapp
+call mvn clean package -DskipTests
+call cd %RETURN_URL%
+call echo webapp over package

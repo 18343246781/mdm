@@ -1,0 +1,1 @@
+git.exe submodule add  -b organon -- "http://dev3.crmatmobile.com:9999/cloud-tools/cloud-api-aad.git" "cloud-module/cloud-api-aad"
