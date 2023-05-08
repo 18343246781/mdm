@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/cloud-service-ui/cloud-service-ui" />
+    <file type="web" url="file://$PROJECT_DIR$/cloud-webapp/webapp" />
+    <file type="web" url="file://$PROJECT_DIR$/file-upload-server" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/cloud-base/cloud-base-common/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-base/cloud-parent-base/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-base/cloud-parent-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-base/cloud-styles/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-base/cloud-utils/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-base/cloud-utils-pdf/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-approval-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-po/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-rowrange/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-util/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-view/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-core-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-core/cloud-rowrange-impl/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-api/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-api-aad/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-po/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-po/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-view/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-web/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-module/cloud-tools-import/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-service-ui/cloud-service-ui/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-tools/cloud-tools-dict/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-tools/cloud-tools-file-upload/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-tools/cloud-tools-module/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-tools/cloud-tools-websocket/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-tools/cloud-ueditor-web-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-webapp/webapp/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-websocket-cluster/pom.xml" />
+        <option value="$PROJECT_DIR$/file-upload-server/pom.xml" />
+        <option value="$PROJECT_DIR$/CSVContrast/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

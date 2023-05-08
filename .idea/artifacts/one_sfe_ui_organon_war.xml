@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="one-sfe-ui-organon:war">
+    <output-path>$PROJECT_DIR$/cloud-service-ui/cloud-service-ui/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>one-sfe-ui-organon</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ROOT.war">
+      <element id="artifact" artifact-name="one-sfe-ui-organon:war exploded" />
+    </root>
+  </artifact>
+</component>

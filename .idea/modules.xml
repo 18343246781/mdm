@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/CodeGenerator/CodeGenerator.iml" filepath="$PROJECT_DIR$/CodeGenerator/CodeGenerator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-api-aad/cloud-api-aad-organon.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-api-aad/cloud-api-aad-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-api/cloud-api-organon.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-api/cloud-api-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-base/cloud-base-common/cloud-base-common.iml" filepath="$PROJECT_DIR$/cloud-base/cloud-base-common/cloud-base-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-approval-service/cloud-core-approval-service.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-approval-service/cloud-core-approval-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-config/cloud-core-config.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-config/cloud-core-config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-po/cloud-core-po.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-po/cloud-core-po.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-rowrange/cloud-core-rowrange.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-rowrange/cloud-core-rowrange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-service/cloud-core-service.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-service/cloud-core-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-util/cloud-core-util.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-util/cloud-core-util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-view/cloud-core-view.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-view/cloud-core-view.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-core-web/cloud-core-web.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-core-web/cloud-core-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cloud-organon.iml" filepath="$PROJECT_DIR$/.idea/cloud-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-po/cloud-ou-po.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-po/cloud-ou-po.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-service/cloud-ou-service.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-service/cloud-ou-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-base/cloud-parent-base/cloud-parent-base.iml" filepath="$PROJECT_DIR$/cloud-base/cloud-parent-base/cloud-parent-base.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-base/cloud-parent-web/cloud-parent-web.iml" filepath="$PROJECT_DIR$/cloud-base/cloud-parent-web/cloud-parent-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-core/cloud-rowrange-impl/cloud-rowrange-impl.iml" filepath="$PROJECT_DIR$/cloud-core/cloud-rowrange-impl/cloud-rowrange-impl.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-base/cloud-styles/cloud-styles.iml" filepath="$PROJECT_DIR$/cloud-base/cloud-styles/cloud-styles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-po/cloud-territory-po-organon.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-po/cloud-territory-po-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-service/cloud-territory-service-organon.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-service/cloud-territory-service-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-view/cloud-territory-view-organon.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-view/cloud-territory-view-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-web/cloud-territory-web-organon.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-web/cloud-territory-web-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-tools/cloud-tools-dict/cloud-tools-dict.iml" filepath="$PROJECT_DIR$/cloud-tools/cloud-tools-dict/cloud-tools-dict.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-tools/cloud-tools-file-upload/cloud-tools-file-upload.iml" filepath="$PROJECT_DIR$/cloud-tools/cloud-tools-file-upload/cloud-tools-file-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-module/cloud-tools-import/cloud-tools-import-organon.iml" filepath="$PROJECT_DIR$/cloud-module/cloud-tools-import/cloud-tools-import-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-tools/cloud-tools-module/cloud-tools-module.iml" filepath="$PROJECT_DIR$/cloud-tools/cloud-tools-module/cloud-tools-module.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-tools/cloud-tools-websocket/cloud-tools-websocket.iml" filepath="$PROJECT_DIR$/cloud-tools/cloud-tools-websocket/cloud-tools-websocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-tools/cloud-ueditor-web-starter/cloud-ueditor-web-starter.iml" filepath="$PROJECT_DIR$/cloud-tools/cloud-ueditor-web-starter/cloud-ueditor-web-starter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-base/cloud-utils/cloud-utils.iml" filepath="$PROJECT_DIR$/cloud-base/cloud-utils/cloud-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-base/cloud-utils-pdf/cloud-utils-pdf.iml" filepath="$PROJECT_DIR$/cloud-base/cloud-utils-pdf/cloud-utils-pdf.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-websocket-cluster/cloud-websocket-cluster.iml" filepath="$PROJECT_DIR$/cloud-websocket-cluster/cloud-websocket-cluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/file-upload-server/file-upload-server.iml" filepath="$PROJECT_DIR$/file-upload-server/file-upload-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-service-ui/cloud-service-ui/one-sfe-ui-organon.iml" filepath="$PROJECT_DIR$/cloud-service-ui/cloud-service-ui/one-sfe-ui-organon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cloud-webapp/webapp/one-sfe-webapp-organon.iml" filepath="$PROJECT_DIR$/cloud-webapp/webapp/one-sfe-webapp-organon.iml" />
+    </modules>
+  </component>
+</project>

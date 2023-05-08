@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/CodeGenerator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CodeGenerator/src/main/resources/mapper/NewDoctorMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CodeGenerator/src/main/resources/mapper/NewMergeMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/CodeGenerator/src/main/resources/mapper/OldMergeMapper.xml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Start.sh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/appspec.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/buildspec.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-base/cloud-base-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-base/cloud-utils-pdf/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-base/cloud-utils/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-approval-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-config/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-po/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-rowrange/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-util/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-util/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-core-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-core/cloud-rowrange-impl/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-api-aad/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-po/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-ou/cloud-ou-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-po/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-territory/cloud-territory-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-module/cloud-tools-import/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-service-ui/cloud-service-ui/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-tools-dict/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-tools-file-upload/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-tools-file-upload/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-tools-module/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-tools-module/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-tools-websocket/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-ueditor-web-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-tools/cloud-ueditor-web-starter/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-webapp/webapp/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-webapp/webapp/src/main/resources/application-uat.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-webapp/webapp/src/main/resources/application.properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-websocket-cluster/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/file-upload-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/updatesql.sql" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>
